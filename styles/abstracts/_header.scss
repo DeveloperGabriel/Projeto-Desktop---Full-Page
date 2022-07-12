@@ -42,8 +42,17 @@ body{
             justify-content: center;
             justify-content: space-around;
             align-items: center;
-            .links{
+            .links a{
                 font-size: 18px;
+                text-decoration: none;
+                color: #8B8B8B;
+            }
+            .pai-link{
+                display: flex;
+                justify-content:space-between
+            }
+            .links a:hover{
+                color: #5468e7;
             }
         }
         .img-notificacao{
