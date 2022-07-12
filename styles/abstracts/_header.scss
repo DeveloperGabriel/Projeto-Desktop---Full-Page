@@ -1,0 +1,60 @@
+body{
+    width: 1440px;
+    height: 1024px;
+    .cabecalho-principal .img-linha{
+        position: absolute;
+        width: 642.21px;
+        height: 819.25px;
+        top: 0.98px;
+        left: 321px;
+        z-index: -1;
+    }
+    .cabecalho-principal .container{
+        /*background-color: aquamarine;*/
+        width: 1296px;
+        height: 64px;
+        margin-top: 64px;
+        margin-bottom: 110px;
+        margin-left: 72px;
+        margin-right: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .img-logo-folio{
+            width: 159px;
+            height: 40px;
+            .img-logo{
+                width: 40px;
+                height: 40px;
+            }
+            
+            .img-folio{
+                width: 83px;
+                height: 29.84px;
+                margin-left: 10px;
+                margin-bottom: 5px;
+            }
+        }
+        .nav-links{
+            width: 392px;
+            height: 24px;
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
+            .links{
+                font-size: 18px;
+            }
+        }
+        .img-notificacao{
+            width: 24px;
+            height: 24px;
+            display: flex;
+        }
+        .img-contactus{
+            width: 180px;
+            height: 64px;
+            display: flex;
+        }
+    }
+}
